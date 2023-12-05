@@ -121,8 +121,8 @@ In this assignment, I have built my portfolio layout using the Bootstrap CSS Fra
 
 * The URL of the deployed application.
 
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+* The URL of the GitHub repository that contains my code. 
 
-* The URL of your previously deployed portfolio.
+* The URL of my previously deployed portfolio.
 
-
+https://aftabahmad888.github.io/Portfolio_Page/
