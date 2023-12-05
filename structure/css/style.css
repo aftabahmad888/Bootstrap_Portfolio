@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav_bar{
+    background-color: rgb(7, 152, 209);
+}
+/* #HERO SECTION */
+ 
+.work{
+    padding: 60px 40px;
+    background-color:dimgrey;
+} 

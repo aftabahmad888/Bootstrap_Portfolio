@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
     <!-- # Bootstrap link for CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -24,7 +25,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Work</a>
+              <a class="nav-link" href="#work_id">Work</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
@@ -37,6 +38,54 @@
         </div>
       </div>
     </nav>
+
+    <!-- # Main Section  -->
+    <!-- .For the HERO SECTION -->
+    <div class="container-fluid nav_bar">
+      <div class="row">
+        <div class="col bg-img">
+          <img class="w-100 h-70 " src="/images/hero_image.jpg"  alt="hero image" >
+            <div class="row">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- # Works -->
+      <div class="row row-cols-1 row-cols-md-3 g-4 work " id="work_id">
+        <div class="col">
+          <div class="card">
+            <img src="/images/video-editing.jpg" class="card-img-top" alt="Portfolio image">
+            <div class="card-body">
+              <h5 class="card-title">Portfolio Project</h5>
+              <p class="card-text">This is my Portfolio Project.</p>
+              <a href="https://aftabahmad888.github.io/Portfolio_Page/" class="btn btn-primary">Portfolio Page</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/images/Web-dev.jpg" class="card-img-top" alt="Website Refactor">
+            <div class="card-body">
+              <h5 class="card-title">Website Refactor Project</h5>
+              <p class="card-text">This is my website refactor project.</p>
+              <a href="https://aftabahmad888.github.io/horiseon_website_refactor/" class="btn btn-primary">Website refactor </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/images/netflix.jpg" class="card-img-top" alt="netflix">
+            <div class="card-body">
+              <h5 class="card-title">Netflix Original</h5>
+              <p class="card-text">This is Netflix website.</p>
+              <a href="https://www.netflix.com/gb/" class="btn btn-primary">Netflix</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
 
     <!-- # Js link -->
     <script
