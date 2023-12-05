@@ -93,7 +93,7 @@ In this assignment, I have built my portfolio layout using the Bootstrap CSS Fra
     - An "About Me" section in the same row.
 ### I have created the about section showing my picutre and text that can be changes for my bio. I have added contacts in footer section.
 
-![ About section can be seen in image below](/images/Screenshots/About%20section.jpg)
+![ About section can be seen in image below](/images/Screenshots/About_section.jpg)
     
     - A footer section.
     - All hyperlinks should have a hover effect.
