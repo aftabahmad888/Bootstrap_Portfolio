@@ -120,6 +120,7 @@ In this assignment, I have built my portfolio layout using the Bootstrap CSS Fra
 7. URL Submission:
 
 * The URL of the deployed application.
+https://aftabahmad888.github.io/Bootstrap_Portfolio/
 
 * The URL of the GitHub repository that contains my code. 
 
