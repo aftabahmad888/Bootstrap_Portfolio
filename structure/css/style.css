@@ -19,3 +19,23 @@
 .bars{
     margin: 20px 0;
 }
+.footer{
+    padding: 60px 40px;
+    background-color: rgb(98, 97, 97);
+    font-size: 20px;
+    text-transform: uppercase;
+}
+ul {
+    list-style: none;  
+}
+.links_1 a, .links_2 a{
+    text-decoration: none;
+    color: white;
+}
+.footer_text, .footer_contacts{
+    color:white;
+} 
+.links_1 a:hover,
+.links_2 a:hover{
+    color: rgb(30, 186, 248);
+}
