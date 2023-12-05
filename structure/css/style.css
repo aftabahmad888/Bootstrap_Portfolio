@@ -4,17 +4,31 @@
     box-sizing: border-box;
 }
 .nav_bar{
-    background-color: rgb(7, 152, 209);
+    background-color: rgb(49, 48, 48);
+
 }
-/* #HERO SECTION */
+
+.nav_section_links a{
+    font-weight: 600;
+    font-size: 18px;
+}
+.nav_section_links a:hover{
+    color: mediumvioletred;
+    font-weight: 600;
+}
+.hero_image{
+    box-shadow: 10px 15px 10px black;
+}
  
 .work{
     padding: 60px 40px;
-    background-color:dimgrey;
+    background-color:rgb(49, 48, 48);
 } 
 .about{
     padding: 60px 40px;
-    background-color:cornflowerblue;
+    background-image: linear-gradient(to right, #006286, #68caee);
+    display: flex;
+    flex-wrap: wrap;
 } 
 .bars{
     margin: 20px 0;

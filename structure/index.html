@@ -14,13 +14,14 @@
     />
   </head>
   <body>
-    <!-- # Navbar -->
+    <!-- # Header section -->
+    <!-- . Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Aftab</a>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav_section_links">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
@@ -44,7 +45,7 @@
       <div class="row">
         <div class="col bg-img">
           <img
-            class="w-100 h-70"
+            class="w-100 hero_image"
             src="/images/hero_image.jpg"
             alt="hero image"
           />
@@ -53,7 +54,7 @@
       </div>
     </div>
 
-    <!-- # Works -->
+    <!-- . Works -->
     <div class="row row-cols-1 row-cols-md-3 g-4 work" id="work_id">
       <div class="col">
         <div class="card">
@@ -105,14 +106,14 @@
       </div>
     </div>
 
-    <!-- # About Section -->
+    <!-- . About Section -->
     <div class="container-fluid about" id="about_id">
       <div class="row">
-        <div class="col-4">
+        <div class="col-sm">
           <img src="/images/About-image-cropped.png" alt="about-image" />
         </div>
 
-        <div class="col-4">
+        <div class="col-sm ">
           <div class="about-text">
             <h2>A bit about me!</h2>
             <p>
@@ -124,7 +125,7 @@
           </div>
         </div>
 
-        <div class="col-4">
+        <div class="col-sm">
           <p>HTML</p>
           <div
             class="progress bars"
@@ -134,7 +135,7 @@
             aria-valuemin="0"
             aria-valuemax="100"
           >
-            <div class="progress-bar bg-success" style="width: 85%">85%</div>
+          <div class="progress-bar bg-success" style="width: 85%">85%</div>
           </div>
           <p>CSS</p>
           <div
@@ -181,7 +182,7 @@
 
     <div class="container-fluid footer" id="footer_id">
       <div class="row">
-        <div class="col-3 links_1">
+        <div class="col-sm links_1">
           <ul>
             <li><a href="#">HOME</a></li>
             <li><a href="#work_id">Work</a></li>
@@ -190,7 +191,7 @@
             <li><a href="#">GO TOP</a></li>
           </ul>
         </div>
-        <div class="col-3 links_2">
+        <div class="col-sm links_2">
           <ul>
             <li><a href="#about_id">HTML</a></li>
             <li><a href="#about_id">CSS</a></li>
@@ -198,7 +199,7 @@
             <li><a href="#about_id">PYTHON</a></li>
           </ul>
         </div>
-        <div class="col-3 footer_text">
+        <div class="col-sm footer_text">
           <ul>
             <li>
               <p>
@@ -209,7 +210,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-3 footer_contacts">
+        <div class="col-sm footer_contacts">
           <ul>
             <li><p>GET IN TOUCH</p></li>
             <li><p>PHONE:090078601</p></li>
