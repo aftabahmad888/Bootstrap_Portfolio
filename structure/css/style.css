@@ -24,6 +24,9 @@
     padding: 60px 40px;
     background-color:rgb(49, 48, 48);
 } 
+.btn:hover{
+    box-shadow: 2px 0.3px 2px black;
+}
 .about{
     padding: 60px 40px;
     background-image: linear-gradient(to right, #006286, #68caee);
